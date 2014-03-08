@@ -11,14 +11,16 @@ Packages
 * Virtualenv
 * Virtualenvwrapper
 
-### Mysql user details
+Mysql user details
+==================
 
 * User: root
 * Pass: toor
 
-### Networking
+Networking
+==========
 
-#### Forwarded ports
+### Forwarded ports
 * Mysql: guest: 3306 -> host: 3306
 * Ipython-notebook: guest: 8888 -> host: 8888
 * Http: guest: 8000 -> host: 8000
