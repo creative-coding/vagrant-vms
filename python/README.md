@@ -25,3 +25,9 @@ Networking
 * Ipython-notebook: guest: 8888 -> host: 8888
 * Http: guest: 8000 -> host: 8000
 
+Usage
+=====
+
+```
+mkvirtualenv <name>
+````
