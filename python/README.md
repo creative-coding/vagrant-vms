@@ -10,6 +10,7 @@ Packages
 * Jinja2 (dep for ipython-notebook)
 * Virtualenv
 * Virtualenvwrapper
+* libmysqlclient-dev
 
 Mysql user details
 ==================

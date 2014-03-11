@@ -5,7 +5,7 @@ debconf-set-selections <<< 'mysql-server-5.5 mysql-server/root_password_again pa
 
 # Install mysql
 apt-get update
-apt-get -y install mysql-server-5.5 mysql-client
+apt-get -y install mysql-server-5.5 mysql-client libmysqlclient-dev
 mysql -u root -ptoor -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;"
 cp /vagrant/mysql/my.cnf /etc/mysql/my.cnf
 service mysql restart
