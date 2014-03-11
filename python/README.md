@@ -29,5 +29,9 @@ Usage
 =====
 
 ```
+# Create a new virtual enviroment and work on it
 mkvirtualenv <name>
+workon <name>
+
+# Get code from project repository
 ````
